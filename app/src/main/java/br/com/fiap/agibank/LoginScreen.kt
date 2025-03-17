@@ -88,7 +88,7 @@ fun LoginScreen(navController: NavController) {
                     Spacer(modifier = Modifier.height(16.dp))
 
                     Button(
-                        onClick = { },
+                        onClick = { navController.navigate("orcamento") },
                         modifier = Modifier
                             .width(280.dp)
                             .height(52.dp)
